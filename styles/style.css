@@ -46,12 +46,12 @@ body {
   text-align: center;
 }
 .question-container__answers {
-  width: 15rem;
   height: 2rem;
   border-radius: 1rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: white;
   list-style-type: none;
+  margin-bottom: 4rem;
 }
 .question-container__answers--item {
   line-height: 1.5;
@@ -92,8 +92,8 @@ body {
 
 #submit, #next {
   display: flex;
-  align-items: center;
   margin: auto;
+  margin-top: 2rem;
   padding: 1rem 4rem;
   background-color: rgba(213, 134, 31, 0.6);
   color: #fff;
