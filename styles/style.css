@@ -37,6 +37,7 @@ body {
   border-radius: 1rem;
   font-size: 1.5rem;
   color: white;
+  list-style: none;
 }
 .question-container__answers li {
   margin-bottom: 10px;
@@ -57,7 +58,8 @@ body {
   text-align: center;
 }
 
-#submit, #next {
+#submit,
+#next {
   display: flex;
   align-items: center;
   margin: auto;
@@ -70,7 +72,8 @@ body {
   font-size: 1.5rem;
 }
 
-#submit:disabled, #next:disabled {
+#submit:disabled,
+#next:disabled {
   background-color: #ccc;
   cursor: not-allowed;
 }/*# sourceMappingURL=style.css.map */
