@@ -60,7 +60,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.result-container__item {
+.result-container__item--total {
   color: rgb(143, 82, 3);
   border: 2px solid white;
   border-radius: 50%;
