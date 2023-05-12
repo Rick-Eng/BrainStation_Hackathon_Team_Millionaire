@@ -42,8 +42,14 @@ body {
   color: #fff;
   text-align: center;
 }
-.question-container__answers li {
-  margin-bottom: 10px;
+.question-container__answers {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  list-style: none;
+  line-height: 1.2;
 }
 
 .result-container {

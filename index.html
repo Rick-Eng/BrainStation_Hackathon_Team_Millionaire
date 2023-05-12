@@ -13,8 +13,14 @@
     <div class="question-container">
       <div class="question-container__value">
         <h1 class="question-container__question" id="question">Next question</h1>
-        <h2 class="question-container__item">100</h2>
+        <h2 class="question-container__item" id="value">100</h2>
       </div>
+      <ul class="question-container__answers" id="answers">
+        <li><input type="radio" name="answer" value="a" />Madrid</li>
+        <li><input type="radio" name="answer" value="b" />London</li>
+        <li><input type="radio" name="answer" value="c" />Paris</li>
+        <li><input type="radio" name="answer" value="d" />Rome</li>
+      </ul>
       <ul class="question-container__answers" id="answers"></ul>
       <!-- <input type="text" class="question-container__answers" name="answer" id="answers"> -->
       <button class="question-container__submit" id="submit">Submit Answer</button>
@@ -22,11 +28,11 @@
     <div class="result-container">
       <div class="result-container__value">
         <h1 class="result-container__result" id="result">Total won</h1>
-        <h2 class="result-container__item--total">100</h2>
+        <h2 class="result-container__item--total" id="total-value">100</h2>
       </div>
       <button class="result-container__next" id="next">Next Question</button>
     </div>
-    <script src=""></script>
+    <script src="./scripts/testing.js"></script>
   </main>
 </body>
 </html>
